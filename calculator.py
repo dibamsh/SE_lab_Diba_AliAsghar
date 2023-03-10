@@ -20,6 +20,7 @@ while True:
             print("Invalid command!")
 
 
+
     elif ('*' in phrase):
         op1, op2 = phrase.split('*')
         try:
@@ -39,6 +40,7 @@ while True:
                 print("answer:", op1 / op2)
             else:
                 print("ERROR: divided by 0")
+
         except:
             print("Invalid command!")
 
