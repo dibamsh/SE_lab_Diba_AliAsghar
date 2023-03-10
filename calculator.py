@@ -10,7 +10,6 @@ while True:
         except:
             print("Invalid command!")
 
-
     elif ('-' in phrase):
         op1, op2 = phrase.split('-')
         try:
@@ -19,8 +18,6 @@ while True:
             print("answer:", op1 - op2)
         except:
             print("Invalid command!")
-
-
 
     else:
         print("Invalid command!")
